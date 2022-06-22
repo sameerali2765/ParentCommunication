@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".logins.LoginFaculty"
+    tools:showIn="@layout/activity_login__faculty"
+    android:background="@drawable/loginpagebackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty login"
+        android:textAllCaps="true"
+        android:id="@+id/faculty_heading"
+        android:textColor="@color/black"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faculty_heading"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/reghead"
+        android:text="Faculty ID">
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reghead"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:hint="Enter your faculty ID"
+        android:id="@+id/faculty_id"
+        android:inputType="number">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faculty_id"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/pwdhead"
+        android:text="Password">
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@id/pwdhead"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:hint="Enter your password "
+        android:id="@+id/password">
+    </EditText>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/black"
+        android:text="Login" />
+</RelativeLayout>

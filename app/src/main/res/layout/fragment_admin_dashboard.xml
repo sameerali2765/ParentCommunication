@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".activities.AdminPage">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:text="Admin Homepage"
+        android:textAllCaps="true"
+        android:textColor="@color/surface_varient"></TextView>
+
+    <Button
+        android:id="@+id/astudent"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:ellipsize="marquee"
+        android:text="Add student" />
+
+    <Button
+        android:id="@+id/rstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="148dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:ellipsize="marquee"
+        android:text="Remove a student">
+
+    </Button>
+
+    <Button
+        android:id="@+id/afaculty"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/astudent"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="147dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:ellipsize="marquee"
+        android:text="Add faculty">
+
+    </Button>
+
+    <Button
+        android:id="@+id/rfaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rstudent"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="125dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:ellipsize="marquee"
+        android:text="Remove a faculty">
+
+    </Button>
+
+</RelativeLayout>

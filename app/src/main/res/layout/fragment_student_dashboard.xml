@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StudentPage"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:text="Student Homepage"
+        android:textAllCaps="true"
+        android:textColor="@color/surface_varient"
+        android:layout_marginTop="25dp"
+        android:id="@+id/heading">
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Attendance"
+        android:layout_below="@id/heading"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="marquee"
+        android:id="@+id/view_att"
+        android:backgroundTint="@android:color/holo_blue_light"/>
+
+
+</RelativeLayout>

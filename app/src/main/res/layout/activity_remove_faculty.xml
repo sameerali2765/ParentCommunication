@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RemoveFaculty"
+    tools:showIn="@layout/activity_remove_faculty">
+
+    <TextView
+        android:id="@+id/faculty_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Remove Faculty"
+        android:textAllCaps="true"
+        android:textColor="@color/surface_varient"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reghead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:text="Registration number"
+        android:textColor="@color/surface_varient"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/registration_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter Faculty ID"
+        android:inputType="number"
+        android:textColor="@color/surface_varient"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/rem_faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:text="Remove"
+        android:textColor="@color/black" />
+
+</LinearLayout>

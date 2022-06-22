@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.ViewStudentAttendance"
+    tools:showIn="@layout/activity_view_student_attendance">
+
+    <TextView
+        android:id="@+id/student_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Student Attendance"
+        android:textAllCaps="true"
+        android:textColor="@color/surface_varient"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/registration_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Registration number"
+        android:textColor="@color/surface_varient" />
+
+    <EditText
+        android:id="@+id/registration_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter the 12 digit student registration number"
+        android:inputType="number"
+        android:textColor="@color/surface_varient" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        android:textColor="@color/black" />
+
+</LinearLayout>

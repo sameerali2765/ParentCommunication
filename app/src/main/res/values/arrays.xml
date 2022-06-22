@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="semester">
+        <item>Select semester</item>
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+
+    </string-array>
+
+    <string-array name="classes">
+        <item>Select Year</item>
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+
+    </string-array>
+
+    <string-array name="sections">
+        <item>Select Section</item>
+        <item>Section A</item>
+        <item>Section B</item>
+        <item>Section C</item>
+
+    </string-array>
+
+    <string-array name="period">
+        <item>No of Periods</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

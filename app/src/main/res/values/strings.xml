@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Attendance_Management_System</string>
+    <string name="title_activity_class_view">ClassView</string>
+    <string name="title_activity_login__admin">Admin Login</string>
+    <string name="title_activity_login__faculty">Faculty Login</string>
+    <string name="title_activity_login__student">Student Login</string>
+    <string name="title_activity_student__login">Student Login</string>
+
+    <string name="title_activity_view_class">ViewClass</string>
+    <string name="title_activity_faculty_homepage">Faculty_homepage</string>
+    <string name="title_activity_view__studentattendance">View_Studentattendance</string>
+    <string name="title_activity_student_homepage">Student_homepage</string>
+    <string name="title_activity_admin_homepage">Admin_homepage</string>
+    <string name="action_logout">action_logout</string>
+
+    <!-- Navigation Menu Titles -->
+    <string name="nav_profile">Profile</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings</string>
+
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_faculty">FacultyActivity</string>
+
+</resources>
