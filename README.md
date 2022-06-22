@@ -1,1 +1,1 @@
-# ParentTalk
+# ParentCommunication App
